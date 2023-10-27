@@ -10,11 +10,11 @@ function InitThis() {
   ctx = document.getElementById('myCanvas').getContext("2d");
 
   numero = getRndInteger(0, 10);
-  letra = ["Manzana", "Pera", "Platano"];
+  letra = ["Redonda", "Blanca", "Negra"];
   random = Math.floor(Math.random() * letra.length);
   aleatorio = letra[random];
 
-  document.getElementById('mensaje').innerHTML  = 'Dibuja una fruta (Platano, Pera, Manzana)';
+  document.getElementById('mensaje').innerHTML  = 'Dibuja una fruta (Redonda, Blanca, Negra)';
   document.getElementById('numero').value = aleatorio;
 
   $('#myCanvas').mousedown(function (e) {
