@@ -1,1 +1,0 @@
-# TA3-dibujo-mano-alzada
